@@ -7,6 +7,8 @@ int main()
     float floatType;
     double doubleType;
 
+    printf("----[±è¹Î°æ]    [2023041054]----");
+
     printf("Size of char: %ld byte\n",sizeof(charType));
     printf("Size of int: %ld bytes\n",sizeof(integerType));
     printf("Size of float: %ld bytes\n",sizeof(floatType));

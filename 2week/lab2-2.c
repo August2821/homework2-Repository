@@ -1,10 +1,13 @@
-//----[±è¹Î°æ]    [2023041054]----
+
 #include <stdio.h>
 int main(){
     int i;
     int *ptr;
     int **dptr;
     i = 1234;
+
+    printf("----[±è¹Î°æ]    [2023041054]----");
+
     printf("[checking values before ptr = &i] \n");
     printf("value of i == %d\n", i);
     printf("address of i == %p\n", &i);
