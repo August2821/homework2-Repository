@@ -3,6 +3,8 @@
 
 int main(){
     int **x;
+    printf("[----- [김민경] [2023041054] -----]\n\n");
+
     printf("sizeof(x) = %lu\n", sizeof(x)); //포인터 x의 크기를 출력한다. 32bit이기 때문에 4 출력
     printf("sizeof(*x) = %lu\n", sizeof(*x)); //포인터 *x의 크기를 출력한다. 32bit이기 때문에 4 출력
     printf("sizeof(**x) = %lu\n", sizeof(**x)); //정수 x의 크기를 출력한다.

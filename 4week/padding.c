@@ -8,6 +8,8 @@ struct student {
 
 int main(){
     struct student pst;
+    
+    printf("[----- [김민경] [2023041054] -----]\n\n");
 
     printf("size of student = %ld\n", sizeof(struct student)); //19byte가 출력되어야 하나 padding bytes로 인해 24byte가 출력됨
     printf("size of int = %ld\n", sizeof(int)); //int의 크기 출력
